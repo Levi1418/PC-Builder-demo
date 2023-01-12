@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>PC Builder</title> 
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head> 
+<body> 
+  <h1>Welcome to the PC Builder</h1> 
+  <form> 
+    <label for="cpu">Select CPU:</label> 
+    <select id="cpu" name="cpu"> 
+      <option value="i3">Intel Core i3</option> 
+      <option value="i5">Intel Core i5</option> 
+      <option value="i7">Intel Core i7</option> 
+      <option value="i9">Intel Core i9</option> 
+    </select> 
+    <br> 
+    <label for="gpu">Select GPU:</label> 
+    <select id="gpu" name="gpu"> 
+      <option value="gtx1060">NVIDIA GeForce GTX 1060</option> 
+      <option value="gtx1660">NVIDIA GeForce GTX 1660</option> 
+      <option value="rtx2060">NVIDIA GeForce RTX 2060</option> 
+      <option value="rtx3060">NVIDIA GeForce RTX 3060</option> 
+    </select> 
+    <br> 
+    <label for="ram">Select RAM:</label> 
+    <select id="ram" name="ram"> 
+      <option value="8gb">8 GB</option> 
+      <option value="16gb">16 GB</option> 
+      <option value="32gb">32 GB</option> 
+    </select> 
+    <br> 
+    <label for="storage">Select storage:</label> 
+    <select id="storage" name="storage"> 
+      <option value="256gb">256 GB SSD</option> 
+      <option value="512gb">512 GB SSD</option> 
+      <option value="1tb">1 TB SSD</option> 
+    </select> 
+    <br> 
+    <input type="submit" value="Build My PC"> 
+    <h2>PC Component Images</h2>
+   <div id="pc-component-images">
+      <img src="Images/cpu.jpg" alt="cpu">
+      <img src="Images/gpu.jpg" alt="gpu">
+      <img src="Images/ram.jpg" alt="ram">
+      <img src="Images/ssd.jpg" alt="storage">
+   </div>
+</form> 
+<h2>Reviews</h2> 
+<div id="reviews"> 
+  <div class="review"> 
+    <h3>Great PC</h3> 
+    <p>I purchased this PC for gaming and it works great. The graphics are amazing and it runs smoothly.</p> 
+  </div> 
+  <div class="review"> 
+    <h3>Good value</h3> 
+    <p>I'm very happy with my purchase. The price was very reasonable and it has been working well.</p> 
+  </div> 
+</div> 
+</body> 
+</html>

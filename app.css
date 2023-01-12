@@ -1,0 +1,129 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  #reviews {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    width:50%;
+    text-align:center;
+  }
+  
+  #reviews {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+  }
+  
+  .review {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .review h3 {
+    
+    margin-top: 0;
+    color: #4CAF50;
+  }
+  #reviews {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    width:50%;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .review {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width:80%;
+    text-align:left;
+  }
+  #pc-component-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #pc-component-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+  }
+  #pc-component-images img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  #pc-component-images {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  #pc-component-images img {
+    width:200px;
+    height:150px;
+    margin-right: 10px;
+  }
+  
+  
+  
